@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jammbcstore.maternitydrive.MaternityDriverWelcomeScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/MaternityDriveToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/MaternityDriveAppBarColor"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/MaternityDriveAppBarAppNameColor">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/MaternityDrive"
+                    android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/AmbulanceDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="@string/AmbulanceDriver"
+                android:textAllCaps="true"
+                android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/MidwifeDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AmbulanceDriver"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="@string/MidwifeDriver"
+                android:textAllCaps="true"
+                android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/SpecialDriver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MidwifeDriver"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:text="@string/special"
+                android:textAllCaps="true"
+                android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+

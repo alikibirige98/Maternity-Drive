@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jammbcstore.maternitydrive.AmbulanceCustomerMapActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/MaternityDriveToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/MaternityDriveAppBarColor"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@color/MaternityDriveAppBarAppNameColor">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/optionsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_menu_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/Header_1"
+                android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/MidwifeCustomerLogoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/MaternityDriveAppBarAppNameColor"
+        android:padding="14dp"
+        android:text="@string/Logout"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/MidwifeCustomerSettingsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/MaternityDriveAppBarAppNameColor"
+        android:padding="14dp"
+        android:text="@string/Settings"
+        android:textAllCaps="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/RequestMidwifeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="6sp"
+        android:background="@color/MaternityDriveAppBarColor"
+        android:padding="14dp"
+        android:text="@string/RequestMidwife"
+        android:textAllCaps="true"
+        android:textColor="@color/MaternityDriveAppBarAppNameColor"
+        android:textSize="15sp" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#AD1457</color>
+    <color name="colorPrimaryDarkCorrect">#d72172</color>
+    <color name="colorAccent">#AD1457</color>
+    <color name="MaternityDriveAppBarAppNameColor">#FFFFFF</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="WelcomeScreenBackGroundColor">#F5F5F5</color>
+    <color name="MaternityDriveAppBarColor">#E91E63</color>
+    <color name="OptionsButtonColor">#ffffff</color>
+    <color name="OptionsButtonColorDarker">#d6d6d6</color>
+    <color name="OptionsTextColor">#1c1c1c</color>
+</resources>

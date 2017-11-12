@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Maternity Driver</string>
+    <string name="MaternityDrive">Maternity Drive | Driver App</string>
+    <string name="MaternityDriveLogin">Maternity Drive | Login</string>
+    <string name="AmbulanceDriver">Ambulance Driver</string>
+    <string name="SpecialDriver">Special Driver</string>
+    <string name="special">Special Driver</string>
+    <string name="MidwifeDriver">Mid Wife Driver</string>
+    <string name="EditTextEmailTxt">Email</string>
+    <string name="EditTextPasswordTxt">Password</string>
+    <string name="ButtonLoginTxt">Login</string>
+    <string name="ButtonRegisterTxt">Register</string>
+    <string name="DefaultDestination">Destination:--</string>
+    <string name="Destination">Destination:</string>
+    <string name="Name">Your names here</string>
+    <string name="Phone">Your phone number here</string>
+    <string name="Confirm">Confirm</string>
+    <string name="ProfileTextName">Your name here</string>
+    <string name="PlateNumber">Plate Number</string>
+    <string name="ProfileTextPhone">Your Phone number</string>
+    <string name="ProfileConfirmBtn">Confirm</string>
+    <string name="ProfileBackBtn">Back</string>
+    <string name="Back">Back</string>
+    <string name="title_activity_ambulance_driver_map">Map</string>
+    <string name="signUpError">Sign up Error:Check Email, Password, Data connection</string>
+    <string name="signInError">Sign in Error:Check Email, Password, Data connection</string>
+    <string name="title_activity_mid_wife_driver_map">Map</string>
+    <string name="title_activity_special_driver_map">Map</string>
+    <string name="Settingss">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="TripHistory">Trip History</string>
+    <string name="Earn">Earnings</string>
+    <string name="HelpFeed">Help &amp; Feed back</string>
+    <string name="Settings">Settings</string>
+    <string name="grant_permission">Please Provide the <b><i>Permission</i></b></string>
+
+</resources>

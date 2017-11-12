@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jammbcstore.maternitydrive.AmbulanceDriverLoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/MaternityDriveToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/MaternityDriveAppBarColor"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/MaternityDriveAppBarAppNameColor">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/MaternityDriveLogin"
+                    android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/AmbulanceDriverEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MaternityDriveToolBar"
+            android:layout_margin="10sp"
+            android:layout_marginTop="40sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/EditTextEmailTxt"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/AmbulanceDriverPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AmbulanceDriverEmail"
+            android:layout_margin="10sp"
+            android:layout_marginTop="40sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="@string/EditTextPasswordTxt"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/AmbulanceDriverRegisterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7sp"
+            android:background="@color/colorPrimary"
+            android:padding="17dp"
+            android:text="@string/ButtonRegisterTxt"
+            android:textColor="@color/MaternityDriveAppBarAppNameColor"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/AmbulanceDriverLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/AmbulanceDriverRegisterBtn"
+            android:background="@color/colorPrimary"
+            android:padding="17dp"
+            android:text="@string/ButtonLoginTxt"
+            android:textColor="@color/MaternityDriveAppBarAppNameColor"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jammbcstore.maternitydrive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="com.android.vending.CHECK_LICENSE"
+        tools:node="remove" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_maternity_drive_logo_final"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_maternity_drive_logo_final"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/ApiKey" />
+
+        <activity android:name=".WelcomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomerLoginActivity" />
+        <activity android:name=".MaternityDriveServicesActivity" />
+        <activity android:name=".AmbulanceCustomerMapActivity" />
+        <activity android:name=".SpecialCustomerMapActivity" />
+        <activity android:name=".MidwifeCustomerMapActivity" />
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".PaymentOptionsActivity" />
+        <activity android:name=".TripHistoryActivity" />
+        <activity android:name=".HelpFeedBackActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AboutMaternityDriveActivity" />
+        <activity android:name=".CustomerSignupActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".MaternityDrive"></activity>
+    </application>
+
+</manifest>

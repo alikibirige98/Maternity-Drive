@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757126344650",
+    "firebase_url": "https://maternity-drive-177011.firebaseio.com",
+    "project_id": "maternity-drive-177011",
+    "storage_bucket": "maternity-drive-177011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757126344650:android:2212798b547b8aaf",
+        "android_client_info": {
+          "package_name": "com.jammbcstore.maternitydrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757126344650-2jdki9ha79u45frd3q2b0cmrjd73ig74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jammbcstore.maternitydrive",
+            "certificate_hash": "8fff16ff6843fec385138a02f915420ba9771e7f"
+          }
+        },
+        {
+          "client_id": "757126344650-ijaqchu6c39pupbsdmr4ljq5ta5qc5rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDgoM9qLeKZaiMLyZnLur8zsMbGhT_-Xo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757126344650-ijaqchu6c39pupbsdmr4ljq5ta5qc5rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

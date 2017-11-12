@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.jammbcstore.maternitydrive.OptionsActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/MaternityDriveToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/MaternityDriveAppBarColor"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/MaternityDriveAppBarAppNameColor">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/optionsBackBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_arrow_back_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/MaternityDriveAppBarAppNameColor"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:background="@color/colorPrimary">
+
+                <Button
+                    android:id="@+id/PaymentBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:background="@color/OptionsButtonColor"
+                    android:drawableLeft="@drawable/ic_payment_black_24dp"
+                    android:padding="20dp"
+                    android:text="@string/PaymentOptions" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewOne"
+                android:layout_gravity="center"
+                android:layout_margin="5sp">
+
+                <Button
+                    android:id="@+id/TripHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/OptionsButtonColor"
+                    android:drawableLeft="@drawable/ic_history_black_24dp"
+                    android:padding="20sp"
+                    android:text="@string/TripHistory" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewTwo"
+                android:layout_gravity="center"
+                android:layout_margin="5sp">
+
+                <Button
+                    android:id="@+id/HelpFeedBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/OptionsButtonColor"
+                    android:drawableLeft="@drawable/ic_help_black_24dp"
+                    android:padding="20dp"
+                    android:text="@string/HelpFeed" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewThree"
+                android:layout_gravity="center"
+                android:layout_margin="5sp">
+
+                <Button
+                    android:id="@+id/Profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/OptionsButtonColor"
+                    android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+                    android:padding="20dp"
+                    android:text="@string/Profile" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardViewFour"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:background="@color/colorPrimary">
+
+                <Button
+                    android:id="@+id/SetBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/OptionsButtonColor"
+                    android:drawableLeft="@drawable/ic_settings_black_24dp"
+                    android:padding="20dp"
+                    android:text="@string/Settings" />
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
